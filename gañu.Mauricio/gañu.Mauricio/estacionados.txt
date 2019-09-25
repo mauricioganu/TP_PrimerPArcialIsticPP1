@@ -1,0 +1,8 @@
+{"Patente":"eir 338","Hora":"20:27"}
+{"Patente":"eir338","Hora":"21:10"}
+{"Patente":"eir338","Hora":"21:50"}
+{"Patente":"eir338","Hora":"01:02"}
+{"Patente":"eir338","Hora":"01:47"}
+{"Patente":"klk478","Hora":"01:54"}
+{"Patente":"mny","Hora":"01:55"}
+{"Patente":"eir338","Hora":"16:16"}
