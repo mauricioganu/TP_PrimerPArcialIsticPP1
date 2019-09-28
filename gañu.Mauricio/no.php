@@ -37,7 +37,7 @@
 
     <!-- Begin page content -->
     <main role="main" class="container">
-     <h1>Error en el registro.</h1>
+     <h1>Error en el ingreso.</h1>
      
      <a href="login.php"><em>Reintentar nuevamente.</em></a>
      <img src="x.jpg" height="800">
