@@ -22,3 +22,9 @@
 {"Patente":"eir339","Hora":"17:15","Fecha":"28-09-2019 "}
 {"Patente":"klk478","Hora":"07:52","Fecha":"28-09-2019 "}
 {"Patente":"mny555","Hora":"03:15","Fecha":"28-09-2019 "}
+{"Patente":"","Hora":"","Fecha":"28-09-2019 "}
+{"Patente":"","Hora":"","Fecha":"28-09-2019 "}
+{"Patente":"eir338","Hora":"13:14","Fecha":"28-09-2019 "}
+{"Patente":"eir338","Hora":"13:14","Fecha":"28-09-2019 "}
+{"Patente":"eir338","Hora":"13:14","Fecha":"2019\/09\/31"}
+{"Patente":"mny","Hora":"13:16","Fecha":"2019-03-31"}

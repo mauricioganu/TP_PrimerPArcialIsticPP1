@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="imagen.ico">
 
-    <title>Ingreso de vehiculo</title>
+    <title>Ingreso</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
@@ -21,7 +21,7 @@
     <header>
       <!-- Fixed navbar -->
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#"><em>Entre y salga despacio S.A</em></a>
+        <a class="navbar-brand" href="#"><em>Registre la entrada de su vehiculo</em></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -52,7 +52,7 @@
   <input type="time" name="hora" value="">
   <br>
   Fecha:<br>
-  <input type="date" name="" value="">
+  <input type="text" name="fecha" value="aaaa-mm-dd">
   
   <br>
   <input type="submit" value="Ingresar">

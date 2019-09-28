@@ -39,7 +39,7 @@
     <main role="main" class="container">
      <h1>Error en el registro.</h1>
      
-     <a href="registro.php"><em>Reintentar nuevamente.</em></a>
+     <a href="login.php"><em>Reintentar nuevamente.</em></a>
      <img src="x.jpg" height="800">
     </main>
 
