@@ -1,8 +1,24 @@
-{"Patente":"eir 338","Hora":"20:27"}
-{"Patente":"eir338","Hora":"21:10"}
-{"Patente":"eir338","Hora":"21:50"}
-{"Patente":"eir338","Hora":"01:02"}
-{"Patente":"eir338","Hora":"01:47"}
-{"Patente":"klk478","Hora":"01:54"}
-{"Patente":"mny","Hora":"01:55"}
-{"Patente":"eir338","Hora":"16:16"}
+{"Patente":"eir338","Hora":null,"Fecha":null}
+{"Patente":"eir338","Hora":null,"Fecha":null}
+{"Patente":"eir338","Hora":null,"Fecha":null}
+{"Patente":"eir338","Hora":"02:41","Fecha":null}
+{"Patente":"eir338","Hora":"02:42","Fecha":null}
+{"Patente":"eir338","Hora":"02:42","Fecha":null}
+{"Patente":"eir338","Hora":"02:44","Fecha":null}
+{"Patente":"eir338","Hora":"00:59","Fecha":true}
+{"Patente":"eir338","Hora":"00:59","Fecha":null}
+{"Patente":"eir338","Hora":"00:59","Fecha":null}
+{"Patente":"eir338","Hora":"00:59","Fecha":null}
+{"Patente":"eir338","Hora":"00:59","Fecha":null}
+{"Patente":"eir338","Hora":"00:59","Fecha":null}
+{"Patente":"eir338","Hora":"02:59","Fecha":null}
+{"Patente":"","Hora":"","Fecha":null}
+{"Patente":"eir338","Hora":"03:09","Fecha":"28-09-2019 08-09-50estacionados.txt"}
+{"Patente":"eir338","Hora":"03:09","Fecha":"28-09-2019 08-10-38estacionados.txt"}
+{"Patente":"eir338","Hora":"03:09","Fecha":"28-09-2019 08-10-42estacionados.txt"}
+{"Patente":"eir338","Hora":"03:09","Fecha":"28-09-2019 "}
+{"Patente":"eir338","Hora":"03:12","Fecha":"28-09-2019 "}
+{"Patente":"eir339","Hora":"03:12","Fecha":"28-09-2019 "}
+{"Patente":"eir339","Hora":"17:15","Fecha":"28-09-2019 "}
+{"Patente":"klk478","Hora":"07:52","Fecha":"28-09-2019 "}
+{"Patente":"mny555","Hora":"03:15","Fecha":"28-09-2019 "}

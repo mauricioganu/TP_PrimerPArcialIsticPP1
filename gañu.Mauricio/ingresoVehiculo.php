@@ -45,12 +45,16 @@
 
       
       <form action="hacerIngreso.php">
- Patente:<br>
+  Patente:<br>
   <input type="text" name="patente" value="">
   <br>
   Hora:<br>
   <input type="time" name="hora" value="">
-  <br><br>
+  <br>
+  Fecha:<br>
+  <input type="date" name="" value="">
+  
+  <br>
   <input type="submit" value="Ingresar">
 </form> 
     </main>
