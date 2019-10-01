@@ -56,6 +56,7 @@
   
   <br>
   <input type="submit" value="Ingresar">
+   <a href="salidaVehiculo.php"><em>Registre su salida de vehiculo </em></a>
 </form> 
     </main>
 

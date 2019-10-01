@@ -5,3 +5,6 @@
 {"Usuario":"lopez123","Clave":"123"}
 {"Usuario":"mauri_agustin32","Clave":"1234"}
 {"Usuario":"mauri_agustin32","Clave":"1234"}
+{"Usuario":"1234","Clave":"1234"}
+{"Usuario":"1234","Clave":"1234"}
+{"Usuario":"1234","Clave":"1234"}
