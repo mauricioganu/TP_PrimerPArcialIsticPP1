@@ -1,10 +1,1 @@
-{"Usuario":"lucas","Clave":"258"}
-{"Usuario":"mauri_agustin32","Clave":"1234"}
-{"Usuario":"ga\u00f1u","Clave":"123"}
-{"Usuario":"mag","Clave":"1234"}
-{"Usuario":"lopez123","Clave":"123"}
-{"Usuario":"mauri_agustin32","Clave":"1234"}
-{"Usuario":"mauri_agustin32","Clave":"1234"}
-{"Usuario":"1234","Clave":"1234"}
-{"Usuario":"1234","Clave":"1234"}
-{"Usuario":"1234","Clave":"1234"}
+{"Usuario":"mauri322","Clave":"1234"}

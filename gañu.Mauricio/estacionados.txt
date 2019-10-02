@@ -1,36 +1,7 @@
-{"Patente":"eir338","Hora":null,"Fecha":null}
-{"Patente":"eir338","Hora":null,"Fecha":null}
-{"Patente":"eir338","Hora":null,"Fecha":null}
-{"Patente":"eir338","Hora":"02:41","Fecha":null}
-{"Patente":"eir338","Hora":"02:42","Fecha":null}
-{"Patente":"eir338","Hora":"02:42","Fecha":null}
-{"Patente":"eir338","Hora":"02:44","Fecha":null}
-{"Patente":"eir338","Hora":"00:59","Fecha":true}
-{"Patente":"eir338","Hora":"00:59","Fecha":null}
-{"Patente":"eir338","Hora":"00:59","Fecha":null}
-{"Patente":"eir338","Hora":"00:59","Fecha":null}
-{"Patente":"eir338","Hora":"00:59","Fecha":null}
-{"Patente":"eir338","Hora":"00:59","Fecha":null}
-{"Patente":"eir338","Hora":"02:59","Fecha":null}
-{"Patente":"","Hora":"","Fecha":null}
-{"Patente":"eir338","Hora":"03:09","Fecha":"28-09-2019 08-09-50estacionados.txt"}
-{"Patente":"eir338","Hora":"03:09","Fecha":"28-09-2019 08-10-38estacionados.txt"}
-{"Patente":"eir338","Hora":"03:09","Fecha":"28-09-2019 08-10-42estacionados.txt"}
-{"Patente":"eir338","Hora":"03:09","Fecha":"28-09-2019 "}
-{"Patente":"eir338","Hora":"03:12","Fecha":"28-09-2019 "}
-{"Patente":"eir339","Hora":"03:12","Fecha":"28-09-2019 "}
-{"Patente":"eir339","Hora":"17:15","Fecha":"28-09-2019 "}
-{"Patente":"klk478","Hora":"07:52","Fecha":"28-09-2019 "}
-{"Patente":"mny555","Hora":"03:15","Fecha":"28-09-2019 "}
-{"Patente":"","Hora":"","Fecha":"28-09-2019 "}
-{"Patente":"","Hora":"","Fecha":"28-09-2019 "}
-{"Patente":"eir338","Hora":"13:14","Fecha":"28-09-2019 "}
-{"Patente":"eir338","Hora":"13:14","Fecha":"28-09-2019 "}
-{"Patente":"eir338","Hora":"13:14","Fecha":"2019\/09\/31"}
-{"Patente":"mny","Hora":"13:16","Fecha":"2019-03-31"}
-{"Patente":"mnh336","Hora":"15:27","Fecha":"2019-09-15"}
-{"Patente":"1234","Hora":"12:39","Fecha":"2019-10-1"}
-{"Patente":"1234","Hora":"12:41","Fecha":"2019-10-1"}
-{"Patente":"1234","Hora":"12:41","Fecha":"2019-10-1"}
-{"Patente":"1234","Hora":"12:42","Fecha":"2019-10-1"}
-{"Patente":null,"Hora":null,"Fecha":null}
+{"Patente":"eir338","Fecha":1569975512}
+{"Patente":"eir338","Fecha":1569975516}
+{"Patente":"eir338","Fecha":1569975646}
+{"Patente":"eir338","Fecha":1569975706}
+{"Patente":"eir338","Fecha":1569976512}
+{"Patente":"eir338","Fecha":1569978702}
+{"Patente":"eir338","fecha":1569978706}

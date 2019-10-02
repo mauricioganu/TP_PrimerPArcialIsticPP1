@@ -48,13 +48,7 @@
   Patente:<br>
   <input type="text" name="patente" value="">
   <br>
-  Hora:<br>
-  <input type="time" name="hora" value="">
-  <br>
-  Fecha:<br>
-  <input type="text" name="fecha" value="aaaa-mm-dd">
   
-  <br>
   <input type="submit" value="Ingresar">
    <a href="salidaVehiculo.php"><em>Registre su salida de vehiculo </em></a>
 </form> 
