@@ -1,26 +1,34 @@
 <?php
-$objeto= new stdClass();
-$objeto=$_GET['fecha'];
-$salida= $_GET['Fecha'];
+$check=$_GET['patente'];
 $archivo = fopen("estacionados.txt", "r");
 
-while(!feof($archivo)) 
+while (!feof($archivo)) 
 {
-$objeto = json_decode(fgets($archivo));
-if ($objeto->Patente == $_GET['patente'])
+	$objeto = json_decode(fgets($archivo));
+	$objetoPatente = $objeto->Patente;
+	if ($objetoPatente==$check)
 	{
+		$check1=$_GET['FechaSalida'];
+		//$archivo1= fopen("estacionados.txt", "r");
+		$objetoFechaSalida = $objeto->FechaSalida;
+		$check2=$_GET['FechaEntrada'];
+		//$archivo2= fopen("estacionados.txt", "r");
+		$objetoFechaEntrada = $objeto->FechaSalida;
+		echo("$objetoFechaEntrada");
+		echo("$objetoFechaSalida");
+		//fclose($archivo1);
+		//exit();
+		//fclose($archivo2);
+		//exit();
 		
-		$segundos= $FechaEntrada-$FechaSalida;
-		echo "$segundos";
-	} 
-	
-
-
-
+	}
 }
-
 fclose($archivo);
-
 exit();
+
+
+
+
+
 
 ?>
