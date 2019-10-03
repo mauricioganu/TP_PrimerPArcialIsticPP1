@@ -1,31 +1,30 @@
 <?php
 $check=$_GET['patente'];
-$archivo = fopen("estacionados.txt", "r");
+$archivo = fopen("estacionados.txt", 'r');
 
 while (!feof($archivo)) 
 {
-	$objeto = json_decode(fgets($archivo));
-	$objetoPatente = $objeto->Patente;
+	$objeto = json_decode(fgets($archivo)); //fgets recorro cada uno de los renglones fgets dato hasta final
+	
 	if ($objetoPatente==$check)
-	{
-		$check1=$_GET['FechaSalida'];
-		//$archivo1= fopen("estacionados.txt", "r");
-		$objetoFechaSalida = $objeto->FechaSalida;
-		$check2=$_GET['FechaEntrada'];
-		//$archivo2= fopen("estacionados.txt", "r");
-		$objetoFechaEntrada = $objeto->FechaSalida;
-		echo("$objetoFechaEntrada");
-		echo("$objetoFechaSalida");
-		//fclose($archivo1);
-		//exit();
-		//fclose($archivo2);
-		//exit();
+	{	$tiempo=$FechaSalida-$objeto->FechaEntrada;
+		$importe=($tiempo/60)*100;
+
+
+
+
+		$objeto->importe=$importe;
+		$objeto->FechaSalida=$FechaSalida;
+		
+
+		$archivo1 = fopen("facturados.txt", 'r');
+		break;
+
+		
 		
 	}
 }
 fclose($archivo);
-exit();
-
 
 
 
