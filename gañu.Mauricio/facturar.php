@@ -24,13 +24,17 @@
     </header>
     <!-- Begin page content -->
     <main role="main" class="container">
-      <h1 class="mt-5">Brindamos servicio de estacionamiento.</h1>
-      <p class="lead">En esta pagina se registran los usuarios y se controla la entrada y salida de cada vehiculo.
+     <h1>Búsqueda de patente</h1>
+     <form action="HacerFacturar.php">
+      <br>Patente:</br>
+      <input type="text" name="patente" value="">
+    <br>  <input type="submit" value="Ok"></br>
     </main>
-    <img src="estacionamiento.jpg"height="1000">
+   
     <footer class="footer">
       <div class="container">
-        <span class="text-muted"></span>
+        <span class="text-muted"><iframe src="http://free.timeanddate.com/clock/i6y30msv/n51/tles4/fs30/tcf90/pc9f0/ftbi/bo2/th2" frameborder="0" 
+          </iframe>></span>
       </div>
     </footer>
     <!-- Bootstrap core JavaScript

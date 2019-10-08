@@ -1,27 +1,29 @@
 <?php
 
 $check= $_GET['usuario'];
-$archivo = fopen("registro.txt", "r");
-
+$clave=$_GET['clave'];
+$archivo = fopen("registro.txt", 'r');
+$contador=0;
 while(!feof($archivo)) 
 {
 	$objeto = json_decode(fgets($archivo));
-	$objetoUsuario=$objeto->Usuario;
-	if ($objetoUsuario==$check)
+	
+	if ($objeto->Usuario==$check)
 	{	
 		if ($objeto->Clave == $_GET['clave'])
 		{
-			header("Location: ingresoVehiculo.php");
-			fclose($archivo);
-			exit();
+			$contador=1;
 		}
-		else
-		{
-			header("Location: no.php");
-			fclose($archivo);
-			exit();
-		}
+		
 	}
+	if ($contador==1)
+	{
+		header("Location: ok.php");
+	}
+	else
+	{
+		header("Location: no.php");
+			}
 
 }
 

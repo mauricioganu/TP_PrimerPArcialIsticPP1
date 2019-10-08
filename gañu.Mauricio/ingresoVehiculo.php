@@ -21,7 +21,7 @@
     <header>
       <!-- Fixed navbar -->
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#"><em>Registre la entrada de su vehiculo</em></a>
+        <a class="navbar-brand" href="#"><em>Registre su vehiculo</em></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -50,13 +50,14 @@
   <br>
   
   <input type="submit" value="Ingresar">
-   <a href="salidaVehiculo.php"><em>Registre su salida de vehiculo </em></a>
+   
 </form> 
     </main>
 
     <footer class="footer">
       <div class="container">
-        <span class="text-muted"></span>
+        <span class="text-muted"><iframe src="http://free.timeanddate.com/clock/i6y30msv/n51/tles4/fs30/tcf90/pc9f0/ftbi/bo2/th2" frameborder="0" width="178" height="38"></iframe>
+        </span>
       </div>
     </footer>
 

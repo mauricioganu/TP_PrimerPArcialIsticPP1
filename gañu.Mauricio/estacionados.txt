@@ -8,3 +8,11 @@
 {"Patente":"eir338","fechaSalida":1569987660}
 {"Patente":"klk478","FechaEntrada":1569987840}
 {"Patente":"klk478","FechaSalida":1569987848}
+{"Patente":"eir338","FechaEntrada":1570393584}
+{"Patente":"eir338","FechaSalida":1570393594}
+{"Patente":"eir338","FechaEntrada":1570393675}
+{"Patente":"eir338","FechaEntrada":1570509849}
+{"Patente":"eir338","FechaEntrada":1570509996}
+{"Patente":"eir338","FechaEntrada":1570510783}
+{"Patente":"eir338","FechaEntrada":1570511095}
+{"Patente":"eir338","FechaEntrada":1570511167}

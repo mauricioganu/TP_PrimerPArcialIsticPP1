@@ -59,7 +59,8 @@
 
     <footer class="footer">
       <div class="container">
-        <span class="text-muted"></span>
+        <span class="text-muted">
+        </span>
       </div>
     </footer>
   <img src="aparcar.jpg"height="500" width="1300" >
