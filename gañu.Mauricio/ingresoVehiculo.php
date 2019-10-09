@@ -56,8 +56,7 @@
 
     <footer class="footer">
       <div class="container">
-        <span class="text-muted"><iframe src="http://free.timeanddate.com/clock/i6y30msv/n51/tles4/fs30/tcf90/pc9f0/ftbi/bo2/th2" frameborder="0" width="178" height="38"></iframe>
-        </span>
+       
       </div>
     </footer>
 

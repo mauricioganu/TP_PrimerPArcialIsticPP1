@@ -18,7 +18,7 @@ while(!feof($archivo))
 	}
 	if ($contador==1)
 	{
-		header("Location: ok.php");
+		header("Location: loginok.php");
 	}
 	else
 	{

@@ -1,11 +1,12 @@
 <?php
 $MiObjeto= new stdClass();
 date_default_timezone_set("America/Argentina/Buenos_Aires");
-$Hora= mktime();
+$HoraIngreso= mktime(); 
 $MiObjeto->Patente=$_GET['patente'];
-$MiObjeto->HoraEntrada=$Hora;
+$MiObjeto->HoraEntrada=$HoraIngreso;
 $archivo=fopen('estacionados.txt', 'a');
-header("Location: ok.php");
+
 fwrite($archivo,json_encode($MiObjeto)."\n");
 fclose($archivo);
+header("Location: ingresook.php");
 ?>

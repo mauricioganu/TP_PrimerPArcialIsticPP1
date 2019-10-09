@@ -20,42 +20,36 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="registro.php">Registrate<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="login.php">Ingreso</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="precios.php"><em>Nuestros precios</em></a>
-            </li>
-             <li class="nav-item">
-              <a class="nav-link" href="facturar.php"><em>Facturación</em></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="listadoUsuarios.php"><em>Listado de usuarios</em></a>
-            </li>
-            <li class="nav-item">
-             <!-- <a class="nav-link" href="listadoEstacionados.php"><em>Listado de estacionados</em></a> -->
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="ingresoVehiculo.php"><em>Registro de vehiculo</em></a>
-            </li>
-          </ul>
-        </div>
       </nav>
     </header>
     <!-- Begin page content -->
     <main role="main" class="container">
-      <h1 class="mt-5">Brindamos servicio de estacionamiento.</h1>
-      <p class="lead">En esta pagina se registran los usuarios y se controla la entrada y salida de cada vehiculo.
+
+    <body>
+	<h1>Listado de usuarios</h1>
+<ol>
+	<?php
+	$archivo=fopen("registro.txt", 'r');
+	while(!feof($archivo)){
+	$objeto=json_decode(fgets($archivo));
+	if (isset($objeto)==true)
+	{
+		echo"<li>";
+		echo"Usuario:  ".$objeto->Usuario."Clave:  ".$objeto->Clave;
+		echo"</li>";
+	}
+	}
+	fclose($archivo);
+	?>
+</ol>
+</body>
     </main>
-    <img src="estacionamiento.jpg"height="1000">
+   
     <footer class="footer">
       <div class="container">
-        <span class="text-muted"></span>
+        <span class="text-muted">
+          
+        </span>
       </div>
     </footer>
     <!-- Bootstrap core JavaScript

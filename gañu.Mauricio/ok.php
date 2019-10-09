@@ -41,7 +41,7 @@
     <h1>Se ha registrado con éxito</h1>
      
  	<img src="listo.jpg"height="500">
-  <a href="ingresoVehiculo.php"><em>Registre su vehiculo </em></a>
+ 
     </main>
 
     <footer class="footer">
