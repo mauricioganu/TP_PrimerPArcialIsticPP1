@@ -1,6 +1,6 @@
 <?php
 
-$costo = 5;
+$costo = 100;
 $archivo=fopen("estacionados.txt", "r");
 $check = $_GET['patente'];
 
@@ -12,6 +12,7 @@ while(!feof($archivo))
 		$HoraSalida = mktime();
 		$tiempo = ($HoraSalida-$objeto->HoraEntrada)/60/60;
 		$factura = $tiempo. $objeto->HoraEntrada;
+		$entrada = $objeto->HoraEntrada;
 
 		$objetofactura = new stdClass();
 

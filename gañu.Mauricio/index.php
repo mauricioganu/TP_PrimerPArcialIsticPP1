@@ -43,6 +43,9 @@
             <li class="nav-item">
               <a class="nav-link" href="ingresoVehiculo.php"><em>Registro de vehiculo</em></a>
             </li>
+                        <li class="nav-item">
+              <a class="nav-link" href="listadoUsuarios.php"><em>Listado de estacionados</em></a>
+            </li>
           </ul>
         </div>
       </nav>

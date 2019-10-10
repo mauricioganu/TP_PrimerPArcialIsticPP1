@@ -44,7 +44,8 @@
    $factura = $_GET['factura'];
    $entrada= $_GET['entrada'];
    echo "tiene que abonar : $" .$factura;
-   echo("entrada: " .$entrada);
+   echo "hora entrada" .$entrada;
+  // echo("entrada: " .$entrada);
   // echo "patente:".$check."<br>";
    //echo "patente". $check=$_GET['patente'];
    //echo "Vehiculo: ".$Patente."<br>";
