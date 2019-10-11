@@ -8,3 +8,4 @@
 {"vehiculo":"bvc","entrada":"09-10-19 20:27","HoraSalida":"09-10-19 20:37"}
 {"vehiculo":"AAA111","entrada":"09-10-19 20:27","HoraSalida":"09-10-19 20:39"}
 {"vehiculo":"AAA111","entrada":"09-10-19 20:27","HoraSalida":"09-10-19 20:43"}
+{"vehiculo":"qqq","entrada":"09-10-19 20:27","HoraSalida":"10-10-19 22:16"}

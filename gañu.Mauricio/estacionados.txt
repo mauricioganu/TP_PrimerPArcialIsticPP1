@@ -4,3 +4,4 @@
 {"Patente":"sss","HoraEntrada":1570663961}
 {"Patente":"bvc","HoraEntrada":1570664210}
 {"Patente":"AAA111","HoraEntrada":1570664351}
+{"Patente":"qqq","HoraEntrada":1570756402}

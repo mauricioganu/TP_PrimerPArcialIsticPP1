@@ -26,7 +26,7 @@ while(!feof($archivo))
 		fwrite($archivo1, json_encode($objetofactura). "\n");
 		fclose($archivo1);
 
-		header("Location: facturarok.php? &factura=".$factura "&entrada=".$entrada);
+		header("Location: facturarok.php?factura=$factura&entrada=$entrada");
 		break;	
 	}	
 

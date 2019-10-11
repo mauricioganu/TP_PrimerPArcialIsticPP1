@@ -11,3 +11,4 @@
 {"Usuario":"mauri_agustin32","Clave":"1234"}
 {"Usuario":"mauri","Clave":"1234"}
 {"Usuario":"delpotro","Clave":"tenista"}
+{"Usuario":"1234","Clave":"1234"}
