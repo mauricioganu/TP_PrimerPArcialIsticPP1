@@ -32,7 +32,7 @@
               <a class="nav-link" href="precios.php"><em>Nuestros precios</em></a>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="facturar.php"><em>Facturación</em></a>
+              <a class="nav-link" href="facturar.php"><em>Salida de vehiculo</em></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="listadoUsuarios.php"><em>Listado de usuarios</em></a>
@@ -41,10 +41,14 @@
              <!-- <a class="nav-link" href="listadoEstacionados.php"><em>Listado de estacionados</em></a> -->
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="ingresoVehiculo.php"><em>Registro de vehiculo</em></a>
+              <a class="nav-link" href="ingresoVehiculo.php"><em>Ingreso de vehiculo</em></a>
             </li>
                         <li class="nav-item">
-              <a class="nav-link" href="listadoUsuarios.php"><em>Listado de estacionados</em></a>
+              <a class="nav-link" href="listadoEstacionados.php"><em>Listado de estacionados</em></a>
+            </li>
+            </li>
+                        <li class="nav-item">
+              <a class="nav-link" href="listadoFacturados.php"><em>Listado de facturados</em></a>
             </li>
           </ul>
         </div>

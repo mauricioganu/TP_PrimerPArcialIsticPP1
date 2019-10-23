@@ -1,7 +1,2 @@
-{"Patente":"qwe","HoraEntrada":1570663649}
-{"Patente":"zzz1","HoraEntrada":1570663699}
-{"Patente":"sss","HoraEntrada":1570663938}
-{"Patente":"sss","HoraEntrada":1570663961}
-{"Patente":"bvc","HoraEntrada":1570664210}
-{"Patente":"AAA111","HoraEntrada":1570664351}
-{"Patente":"qqq","HoraEntrada":1570756402}
+{"Patente":"eir338","Horario":"23-10-19 17:25:31"}
+{"Patente":"x","Horario":"23-10-19 17:27:55"}

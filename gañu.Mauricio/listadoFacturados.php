@@ -21,15 +21,19 @@
     <header>
       <!-- Fixed navbar -->
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#"><em>Entre y salga despacio S.A</em></a>
+        <a class="navbar-brand" href="#"><em>Listado de facturados</em></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
             
-            
-            
+            <li class="nav-item">
+              <a class="nav-link" href=""></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href=""></a>
+            </li>
           </ul>
           
         </div>
@@ -38,28 +42,27 @@
 
     <!-- Begin page content -->
     <main role="main" class="container">
-    <h1>Facturación</h1>
-     <?php
-   
-echo $_GET['Precio']," $";
 
-        $miobjeto=new stdClass();
-        $miobjeto->Patente=$_GET['Patente'];
-        $miobjeto->FechaEntrada=$_GET['FechaEntrada'];
-        $miobjeto->FechaSalida=$_GET['FechaSalida'];
-        $miobjeto->Precio=$_GET['Precio'];        
-
-        $archivo=fopen('VehiculosFacturados.txt','a');
-        fwrite($archivo,json_encode($miobjeto)."\n");
-        fclose($archivo);
-   ?>
- 	
-    
+      <h2 class="mt-5">Lista de vehiculos Facturados</h2>
+    <ul>
+      <?php
+      $miArchivo = fopen("VehiculosFacturados.txt", "r") ;
+      
+      while(!feof($miArchivo)) 
+      {
+          $objeto = json_decode(fgets($miArchivo));
+          
+          echo "<li>"."Patente: ".$objeto->Patente=$_GET['Patente']." HorarioEntrada:  ".$objeto->FechaEntrada." HorarioSalida: ".$objeto->FechaSalida." Monto Cobrado: ".$objeto->Precio."$"."</li>";
+          
+      }
+      fclose($miArchivo);
+      ?>
+    </ul> 
     </main>
 
     <footer class="footer">
       <div class="container">
-        <span class="text-muted"></span>
+       
       </div>
     </footer>
 

@@ -1,20 +1,19 @@
 <!doctype html>
-<html lang="es">
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="img/IconoEsta.png" sizes="16x16" type="image/png">
+    <link rel="icon" href="imagen.ico">
 
-    <title>Ingreso - Marmori Est.</title>
+    <title></title>
 
     <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="bootstrap.min.css" rel="stylesheet">
+
     <!-- Custom styles for this template -->
-    <link href="css/sticky-footer-navbar.css" rel="stylesheet">
-
-
+    <link href="sticky-footer-navbar.css" rel="stylesheet">
   </head>
 
   <body>
@@ -22,46 +21,40 @@
     <header>
       <!-- Fixed navbar -->
       <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="index.php">Inicio</a>
+        <a class="navbar-brand" href="#"><em>Entre y salga despacio S.A</em></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <ul class="navbar-nav mr-auto">
+            
+            
+            
+          </ul>
+          
         </div>
       </nav>
     </header>
 
     <!-- Begin page content -->
     <main role="main" class="container">
-      <center>
-        <form>
-      <h1 style="color:green";>Vechiculos Registrados<h1>
-      <br><br>
-      <ol>  
-       <?php
-       date_default_timezone_set('America/Argentina/Buenos_Aires');
-
-        $archivoVehiculo = fopen("estacionados.txt", "r") or die("Imposible arbrir el archivo");
-        while(!feof($archivoVehiculo))
-        {
-            $objetoVehiculo = json_decode(fgets($archivoVehiculo));
-            if (!$objetoVehiculo=="")
-            {
-              echo "<p><li>Patente: ".$objetoVehiculo->Patente."-HoraIng: ".
-              date("Y-m-d h:i:sa",$objetoVehiculo->Horario)."</li></p><br>";
-            }
-        }
-        ?>
-      </ol>
-        </form>
-      </center>
-         
+       <form action="hacerIngreso.php">
+    <h1>Listado de estacionados</h1>
+    <?php
+      $miArchivo = fopen("estacionados.txt", "r") ;
+      
+      while(!feof($miArchivo)) 
+      {
+          $miobjeto = json_decode(fgets($miArchivo));
+          echo "<li>"."Patente: ".$miobjeto->Patente." Horario:  ".$miobjeto->Horario."</li>";
+      }
+      fclose($miArchivo);
+      ?>
     </main>
 
     <footer class="footer">
       <div class="container">
-        <span class="text-muted">"El arte de estacionar"</span>
+        <span class="text-muted"></span>
       </div>
     </footer>
 
@@ -70,8 +63,7 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="../../../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.min.js"></script>
   </body>
 </html>
-

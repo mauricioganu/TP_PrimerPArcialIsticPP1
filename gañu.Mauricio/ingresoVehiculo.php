@@ -46,7 +46,7 @@
       
       <form action="hacerIngreso.php">
   Patente:<br>
-  <input type="text" name="patente" value="">
+  <input type="text" name="Patente" value="">
   <br>
   
   <input type="submit" value="Ingresar">
